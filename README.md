@@ -113,7 +113,7 @@ Select either option A for running locally or option B for Colab Notebook.
 
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/your-repo/Cifar10_SimpleFlaskApp.git
+git clone [https://github.com/your-repo/Cifar10_SimpleFlaskApp.git](https://github.com/AI-Studo/Cifar10_SimpleFlaskApp.git)
 cd Cifar10_SimpleFlaskApp
 ```
 
