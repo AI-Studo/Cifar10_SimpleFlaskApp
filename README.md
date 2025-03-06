@@ -118,15 +118,15 @@ cd Cifar10_SimpleFlaskApp
 ```
 
 ### 2. Create and activate a virtual environment
-#### Mac/Linux
+#### If your system is Mac/Linux
 ```sh
-python3.10 -m venv .env
-source .env/bin/activate
+python3.10 -m venv .venv
+source .venv/bin/activate
 ```
-#### Windows
+#### If your system is Windows
 ```sh
-python3.10 -m venv venv
-venv\Scripts\activate
+python3.10 -m venv .venv
+.venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -135,6 +135,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Run the Flask server
+HINT: It takes sometime to start the server. Patience is the key.
 ```sh
 python server.py
 ```
