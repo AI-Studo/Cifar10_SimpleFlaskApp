@@ -107,8 +107,9 @@ To set up this project locally, follow these simple steps.
 - Pyngrok (for exposing the server when running on Colab)
 
 ### Installation
+Select either option A for running locally or option B for Colab Notebook.
 
-## Running Locally
+## Option A: Running Locally
 
 ### 1. Clone the repository
 ```sh
@@ -140,7 +141,7 @@ python server.py
 
 Once the server starts, you can access the application in your browser at `http://127.0.0.1:5000`.
 
-## Running on Google Colab
+## Option B: Running on Google Colab
 
 ### 1. Clone the repository
 ```sh
